@@ -6,5 +6,5 @@ function checkValue(value: setType) {
         throw new Error("Value is undefined");
     }
 }
-
+ 
 console.log(checkValue("I am string "))
